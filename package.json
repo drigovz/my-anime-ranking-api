@@ -1,0 +1,12 @@
+{
+  "name": "my-anime-ranking-api",
+  "version": "1.0.0",
+  "description": "API written in Node.js with Typescript to hacking of my favorite animes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["anime", "hanking", "api"],
+  "author": "Rodrigo Vaz",
+  "license": "ISC"
+}
