@@ -23,11 +23,11 @@ export class CreateAnimes1615660696174 implements MigrationInterface {
                     {
                         name: "created_at",
                         type: "timestamp",
-                        default: "now()"
+                        default: "current_timestamp"
                     },
                     {
                         name: "note",
-                        type: "int",
+                        type: "integer",
                         default: 0
                     }
                 ]
