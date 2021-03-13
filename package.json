@@ -1,10 +1,11 @@
 {
   "name": "my-anime-ranking-api",
   "version": "1.0.0",
-  "description": "API written in Node.js with Typescript to hacking of my favorite animes",
+  "description": "API written in Node.js with Typescript to hanking of my favorite animes",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --ignore-watch node_modules src/server.ts"
+    "dev": "ts-node-dev --ignore-watch node_modules src/server.ts",
+    "typeorm": "ts-node-dev node_modules/typeorm/cli.js"
   },
   "keywords": [
     "anime",
